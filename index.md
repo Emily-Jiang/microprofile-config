@@ -4,14 +4,16 @@
 
 Released versions:
 Config 1.4: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.4/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.4/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.4/microprofile-config-spec.html)
+
 Config 1.3: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.3/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.3/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.3/microprofile-config-spec.html)
+
 Config 1.2: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.2/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.2/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.2/microprofile-config-spec.html)
 
 # Configuration for MicroProfile
 
 MicroProfile Config Feature
 
-##Rationale
+## Rationale
 
 The majority of applications need to be configured based on a running environment.
 It must be possible to modify configuration data from outside an application so that the application itself does not need to be repackaged.
