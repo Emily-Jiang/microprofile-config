@@ -1,20 +1,6 @@
 ## Welcome to MicroProfile Config
 
 
-
-Released versions:
-Config 1.4: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.4/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.4/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.4/microprofile-config-spec.html)
-
-Config 1.3: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.3/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.3/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.3/microprofile-config-spec.html)
-
-Config 1.2: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.2/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.2/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.2/microprofile-config-spec.html)
-
-# Configuration for MicroProfile
-
-MicroProfile Config Feature
-
-## Rationale
-
 The majority of applications need to be configured based on a running environment.
 It must be possible to modify configuration data from outside an application so that the application itself does not need to be repackaged.
 
@@ -26,6 +12,15 @@ Under some circumstances, some data sources may change dynamically.
 The changed values should be fed into the client without the need for restarting the application.
 This requirement is particularly important for microservices running in a cloud environment.
 The MicroProfile Config approach allows to pick up configured values immediately after they got changed.
+
+## Released versions
+
+Config 1.4: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.4/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.4/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.4/microprofile-config-spec.html)
+
+Config 1.3: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.3/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.3/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.3/microprofile-config-spec.html)
+
+Config 1.2: [Javadocs](https://download.eclipse.org/microprofile/microprofile-config-1.2/apidocs/) | [Spec PDF](https://download.eclipse.org/microprofile/microprofile-config-1.2/microprofile-config-spec.pdf) |[Spec html](https://download.eclipse.org/microprofile/microprofile-config-1.2/microprofile-config-spec.html)
+
 
 ## Design
 
@@ -57,5 +52,5 @@ The whole MicroProfile config project can be built via Apache Maven
 
 ## Contributing
 
-Do you want to contribute to this project? link:CONTRIBUTING.adoc[Find out how you can help here].
+Do you want to contribute to this project? [Find out how you can help here](https://github.com/eclipse/microprofile-config/blob/master/CONTRIBUTING.adoc)
 
